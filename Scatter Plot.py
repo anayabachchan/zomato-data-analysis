@@ -1,0 +1,6 @@
+plt.figure(figsize=(10,6))
+plt.scatter(data['cost_for_two'], data['rating'], alpha=0.5)
+plt.title('Scatter Plot of Cost vs Rating')
+plt.xlabel('Cost for Two')
+plt.ylabel('Rating')
+plt.show()
